@@ -5,17 +5,17 @@ Create the classic Flappy Bird game!
 # 0. Do the other exercises in this folder before starting this one!
 
 def setup():
-    pass
-    # 1. Use the size function to set the width and height of the program
     
+    # 1. Use the size function to set the width and height of the program
+    size(800, 600)
     # 2. Remove the comment (the '#') in the line below 
-    #global bg, bird, lower_pipe, upper_pipe
+    global bg, bird, lower_pipe, upper_pipe
     
     # 3. Use the loadImage function to inialize the bg variable with the
     # flappyBackground.jpg image 
-    
+    loadImage(flappyBackgorund.jpg)
     # 4. Resize the background to the width and height of the program
-    
+    resize(800, 600)
     # 5. Use the Bird class defined below to create a Bird object.
     # The bird image is named 'bird.png'
     
