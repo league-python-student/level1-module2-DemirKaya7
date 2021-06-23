@@ -77,6 +77,6 @@ if __name__ == '__main__':
         messagebox.showinfo(title="Correct", message="You got +1 point")
     else:
         messagebox.showinfo(title="Incorrect", message="Sorry, that's wrong")
-        
+
     # TODO 14) Display the score to the user after asking the last question
     messagebox.showinfo(title="Final score", message="Score = " + str(score))
